@@ -15,6 +15,7 @@
 		67E6669C2681149600672E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67E6669A2681149600672E79 /* LaunchScreen.storyboard */; };
 		67E666A72681149600672E79 /* ticTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E666A62681149600672E79 /* ticTacToeTests.swift */; };
 		67E666B22681149600672E79 /* ticTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E666B12681149600672E79 /* ticTacToeUITests.swift */; };
+		67E666C026814DE300672E79 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E666BF26814DE300672E79 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		67E666AD2681149600672E79 /* ticTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E666B12681149600672E79 /* ticTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeUITests.swift; sourceTree = "<group>"; };
 		67E666B32681149600672E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E666BF26814DE300672E79 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 		67E6668E2681149500672E79 /* ticTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				67E6668F2681149500672E79 /* AppDelegate.swift */,
-				67E666912681149500672E79 /* SceneDelegate.swift */,
+				67E666BF26814DE300672E79 /* Alerts.swift */,
 				67E666932681149500672E79 /* ContentView.swift */,
 				67E666952681149600672E79 /* Assets.xcassets */,
 				67E6669A2681149600672E79 /* LaunchScreen.storyboard */,
 				67E6669D2681149600672E79 /* Info.plist */,
+				67E6668F2681149500672E79 /* AppDelegate.swift */,
+				67E666912681149500672E79 /* SceneDelegate.swift */,
 				67E666972681149600672E79 /* Preview Content */,
 			);
 			path = ticTacToe;
@@ -268,6 +271,7 @@
 			files = (
 				67E666902681149500672E79 /* AppDelegate.swift in Sources */,
 				67E666922681149500672E79 /* SceneDelegate.swift in Sources */,
+				67E666C026814DE300672E79 /* Alerts.swift in Sources */,
 				67E666942681149500672E79 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +442,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ticTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = F7NGX2MLD5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ticTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -458,6 +463,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ticTacToe/Preview Content\"";
+				DEVELOPMENT_TEAM = F7NGX2MLD5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ticTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
